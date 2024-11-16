@@ -22,7 +22,7 @@ Este projeto é um aplicativo web para controle de estoque desenvolvido para a l
 - Dados persistentes usando localStorage.
 
 
-📦 ### **Como Rodar o Projeto**
+📦 **Como Rodar o Projeto**
 
 **Pré-requisitos**
 - Ter o Node.js instalado na máquina.
