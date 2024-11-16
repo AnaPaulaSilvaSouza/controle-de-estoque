@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+## **Controle de Estoque - Becca Modas**
+Este projeto é um aplicativo web para controle de estoque desenvolvido para a loja Becca Modas. Ele permite o cadastro de produtos, registro de saídas de estoque (vendas) e exibe o total em estoque e o total de vendas realizadas.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🎯 **Objetivos**
+- Facilitar o gerenciamento de estoque de pequenas empresas.
+- Reduzir erros manuais no controle de produtos e vendas.
+- Oferecer uma interface simples e intuitiva para microempreendedores.
 
-## Available Scripts
 
-In the project directory, you can run:
+🛠️ **Tecnologias Utilizadas**
+- ReactJS: Para o desenvolvimento da interface do usuário.
+- LocalStorage: Para persistir dados localmente no navegador.
+- CSS: Para estilização e layout.
+- Git e GitHub: Para controle de versão e colaboração.
+- Node.js e NPM: Para gerenciar dependências e executar o servidor de desenvolvimento.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🚀 **Funcionalidades**
+- Cadastro de produtos com nome, quantidade, preço de compra e preço de venda.
+- Registro de saídas de produtos com atualização automática do estoque.
+- Cálculo do valor total em estoque e total de vendas realizadas.
+- Dados persistentes usando localStorage.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+📦 ## **Como Rodar o Projeto**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Pré-requisitos**
+- Ter o Node.js instalado na máquina.
+- Ter o Git instalado (opcional, para clonar o repositório).
 
-### `npm run build`
+**Passo a Passo**
+1 - Clone este repositório (ou baixe o arquivo ZIP):
+git clone https://github.com/AnaPaulaSilvaSouza/controle-de-estoque.git
+cd controle-de-estoque
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2- Instale as dependências do projeto:
+npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3 - Inicie o servidor de desenvolvimento:
+npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4- Abra o navegador em http://localhost:3000 para acessar o aplicativo.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
